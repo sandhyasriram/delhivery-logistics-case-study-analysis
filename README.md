@@ -17,54 +17,51 @@ This project focuses on analyzing logistics and delivery data from Delhivery to 
 #📂 Dataset Description
 
 The dataset contains key logistics features such as:
- 📂 Dataset Description
 
-The dataset contains key logistics features such as:
+  Distance covered<br>
+  Trip duration<br>
+  Route type (FTL / Carting)<br>
+  Delivery time metrics<br>
+  Operational variables<br>
 
-  .Distance covered.
-  .Trip duration
-  .Route type (FTL / Carting)
-  .Delivery time metrics
-  .Operational variables
+#🔍 Project Workflow:
 
-#🔍 Project Workflow
+🧹 Data Cleaning<br>
+  Handled missing/null values<br>
+  Fixed inconsistent data entries<br>
 
-🧹 Data Cleaning
-  Handled missing/null values
-  Fixed inconsistent data entries
+📊 Exploratory Data Analysis (EDA)<br>
+  Distribution analysis of numerical features<br>
+  Boxplots to detect outliers<br>
+  Route type comparisons<br>
 
-📊 Exploratory Data Analysis (EDA)
-  Distribution analysis of numerical features
-  Boxplots to detect outliers
-  Route type comparisons
+⚠️ Outlier Treatment<br>
+  Identified extreme values<br>
+  Applied capping techniques to reduce skewness<br>
 
-⚠️ Outlier Treatment
-  Identified extreme values
-  Applied capping techniques to reduce skewness
+⚙️ Feature Engineering<br>
+  Created meaningful derived features<br>
+  Improved data interpretability<br>
 
-⚙️ Feature Engineering
-  Created meaningful derived features
-  Improved data interpretability
-
-📐 Feature Scaling
-  Applied MinMaxScaler / StandardScaler
-  Ensured uniform feature contribution for ML models
+📐 Feature Scaling<br>
+  Applied MinMaxScaler / StandardScaler<br>
+  Ensured uniform feature contribution for ML models<br>
 
  # Key Insights
-  . Significant variability in delivery times
-  . Presence of extreme outliers affecting the analysis
-  . Imbalance in route type usage
-  . Data preprocessing improves reliability and model readiness
+  . Significant variability in delivery times<br>
+  . Presence of extreme outliers affecting the analysis<br>
+  . Imbalance in route type usage<br>
+  . Data preprocessing improves reliability and model readiness<br>
 
 # Recommendations 
-  . Assign shipments based on distance, load and urgency
-  . Reduce over-dependence on a single route type
-  . Identify trips with extreme delays
-  . Reduce variability in delivery performance
+  . Assign shipments based on distance, load and urgency<br>
+  . Reduce over-dependence on a single route type<br>
+  . Identify trips with extreme delays<br>
+  . Reduce variability in delivery performance<br>
 
 # Results & Impact
- . Improved data quality and consistency
- . Reduced skewness through outlier treatment
- . Prepared dataset for predictive modeling
- . Generated actionable business insights
+ . Improved data quality and consistency<br>
+ . Reduced skewness through outlier treatment<br>
+ . Prepared dataset for predictive modeling<br>
+ . Generated actionable business insights<br>
   
