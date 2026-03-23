@@ -21,11 +21,11 @@ The dataset contains key logistics features such as:
 
 The dataset contains key logistics features such as:
 
-Distance covered.
-Trip duration
-Route type (FTL / Carting)
-Delivery time metrics
-Operational variables
+  .Distance covered.
+  .Trip duration
+  .Route type (FTL / Carting)
+  .Delivery time metrics
+  .Operational variables
 
 #🔍 Project Workflow
 
